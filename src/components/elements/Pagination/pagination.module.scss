@@ -1,0 +1,24 @@
+.container {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #00a98e;
+}
+
+.prevnext {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  color: #00a98e;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}

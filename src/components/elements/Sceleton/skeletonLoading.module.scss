@@ -1,0 +1,43 @@
+.skeletonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skeletonCard {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  animation: pulse 1s infinite alternate; /* Add animation for loading effect */
+}
+
+.skeletonCardHeader {
+  height: 20px;
+  width: 80%;
+  margin-bottom: 10px;
+  background-color: #e0e0e0; /* Light gray color for header */
+}
+
+.skeletonCardBody {
+  height: 40px;
+  width: 100%;
+  background-color: #e0e0e0; /* Light gray color for body */
+}
+
+.skeletonCardFooter {
+  height: 20px;
+  width: 80%;
+  margin-top: 10px;
+  background-color: #e0e0e0; /* Light gray color for footer */
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
